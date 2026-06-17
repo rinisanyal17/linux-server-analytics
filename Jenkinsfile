@@ -11,8 +11,8 @@ pipeline {
         stage('Execute Telemetry Script') {
             steps {
                 echo 'Running live performance metrics analytics framework...'
-                sh 'chmod +x server-stats.sh'
-                sh './server-stats.sh'
+                sh 'chmod +x server_stats.sh'
+                sh './server_stats.sh'
             }
         }
     }
