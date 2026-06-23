@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Linux Server Performance Telemetry Framework
 
 A production-grade, lightweight shell telemetry framework designed to capture, parse, and analyze real-time Linux core system performance metrics. Integrated into a Continuous Integration (CI) engine using a declarative automation pipeline.
@@ -29,3 +30,32 @@ Ensure your local environment has executable shell access:
 ```bash
 # Verify execution environment
 uname -a
+=======
+# Linux Server Performance Analytics Automation
+
+A lightweight, dependency-free Bash utility designed to analyze, parse, and display core Linux server runtime performance diagnostics and resource allocation metrics in real-time.
+
+---
+
+## 📊 Monitored Metrics & Architecture
+
+The script hooks directly into native Linux kernel filesystems, process tables, and tracking utilities to extract data cleanly without causing resource overhead:
+
+*   **System Telemetry:** OS Kernel distribution metadata variants, environment uptime, multi-stage load averages, and active system security indicators (failed authentication tracking).
+*   **Compute Utilization:** Total live aggregate CPU utilization metrics.
+*   **Memory Allocation:** Free vs. Used physical memory capacity computations displayed in Megabytes and exact percentages.
+*   **Storage Subsystems:** Partition tracking and storage utilization patterns for the root (`/`) storage workspace stack.
+*   **Process Telemetry:** Top 5 infrastructure resource consumers prioritized dynamically by CPU and Memory load profiles.
+
+---
+
+## 🚀 Deployment & Usage Instructions
+
+### Prerequisites
+The automation suite relies entirely on native Linux core binaries (`awk`, `sed`, `grep`, `ps`, `df`, `free`, `bc`). No external package distribution installation or third-party dependencies are required, making it highly portable across any standard Linux distribution (Ubuntu, Debian, RHEL, CentOS).
+
+### 1. Clone the Architecture Target
+```bash
+git clone [https://github.com/YOUR_GITHUB_USERNAME/linux-server-analytics.git](https://github.com/YOUR_GITHUB_USERNAME/linux-server-analytics.git)
+cd linux-server-analytics
+>>>>>>> Stashed changes
