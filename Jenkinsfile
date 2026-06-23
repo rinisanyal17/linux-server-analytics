@@ -1,5 +1,5 @@
 pipeline {
-    agent none
+    agent any
     
     environment {
         // Prevents Python from buffering stdout, ensuring logs stream instantly in Jenkins
