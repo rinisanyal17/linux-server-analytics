@@ -19,13 +19,13 @@ pipeline {
                 sh 'python3 edge_telemetry.py'
             }
         }
-        
-      #  stage('Execute Telemetry Script') {
-       #     steps {
-        #        echo 'Running live performance metrics analytics framework...'
-         #       sh 'chmod +x server-stats.sh'
-          #      sh './server-stats.sh'
-           # }
-       # }
+       // Legacy Stage Kept for Architectural History (Commented out using valid Groovy syntax) 
+      //stage('Execute Legacy Bash Telemetryt') {
+       //     steps {
+    //        echo 'Running live performance metrics analytics framework...'
+         //       sh 'chmod +x server-stats.sh'
+          //      sh './server-stats.sh'
+           // }
+       // }
     }
 }
