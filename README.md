@@ -27,7 +27,7 @@ The script is fully automated via a core Continuous Integration deployment loop.
 
 ### Prerequisites
 Ensure your local environment has executable shell access:
-```bash
+
 # Verify execution environment
 uname -a
 
