@@ -23,11 +23,6 @@ The script is fully automated via a core Continuous Integration deployment loop.
 2. **Environment Synchronization:** Code assets are fetched from the remote version-control engine.
 3. **Execution Runtime:** Grants automated operational permissions (`chmod +x`) and runs the core telemetry analytics module.
 
-## 🚀 Local Deployment & Execution
-
-### Prerequisites
-Ensure your local environment has executable shell access:
-
 # Verify execution environment
 uname -a
 
